@@ -8,7 +8,6 @@ An application for generating bleed edges in custom Magic: The Gathering (MTG) c
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -19,6 +18,7 @@ The `the-bleed-edgemaxxer` application is designed to help you generate bleed ed
 
 - Resize images to specified dimensions.
 - Add simple black borders or replicate edges for bleed.
+- Automatically detects borderless cards
 - Process multiple images in a directory.
 - Supports common image formats like PNG, JPG, and JPEG.
 
