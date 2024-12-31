@@ -34,7 +34,7 @@ The `the-bleed-edgemaxxer` application is designed to help you generate bleed ed
 
 2. **Run the application:**
 
-    Run application.exe
+     - Run application.exe
 
 3. **Output:**
     - The processed images with bleed edges will be saved in the [output](http://_vscodecontentref_/2) directory.
