@@ -6,7 +6,9 @@ An application for generating bleed edges in custom Magic: The Gathering (MTG) c
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation and Usage](#installation)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -16,25 +18,46 @@ The `the-bleed-edgemaxxer` application is designed to help you generate bleed ed
 ## Features
 
 - Resize images to specified dimensions.
-- Uses color-detection to find out if a card is borderless to apply appropriate borders
+- Add simple black borders or replicate edges for bleed.
 - Process multiple images in a directory.
 - Supports common image formats like PNG, JPG, and JPEG.
 
-## Installation and Usage
+## Installation
 
-**Clone the repository:**
+1. **Clone the repository:**
 
     ```sh
     git clone https://github.com/yourusername/the-bleed-edgemaxxer.git
     cd the-bleed-edgemaxxer
     ```
 
+2. **Create and activate the virtual environment:**
+
+    - On Windows:
+        ```sh
+        python -m venv .venv
+        .venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```sh
+        python -m venv .venv
+        source .venv/bin/activate
+        ```
+
+3. **Install Requirements:**
+
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
 1. **Prepare your images:**
-    - Place your custom MTG card images in the 'cards' folder
+    - Place your custom MTG card images in the [cards](http://_vscodecontentref_/1) folder.
 
 2. **Run the application:**
 
-    Run application.exe
+    application.exe
 
 3. **Output:**
     - The processed images with bleed edges will be saved in the [output](http://_vscodecontentref_/2) directory.

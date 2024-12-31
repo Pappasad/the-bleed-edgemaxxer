@@ -2,5 +2,6 @@
 *.jpg
 *.jpeg
 output/
+.venv/
 cards/*
 !cards/
