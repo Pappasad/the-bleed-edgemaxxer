@@ -9,7 +9,7 @@ INPUT_DIR = 'cards'  # Directory containing input images
 OUTPUT_DIR = 'output'  # Directory where processed images will be saved
 CARD_DIM = (750, 1050)  # Target dimensions for card images
 IMG_EXT = ('.png', '.jpg', '.jpeg')  # Supported image file extensions
-BLEED_LENGTH = 108  # Bleed length in pixels for adding bleed edges
+BLEED_LENGTH = 36  # Bleed length in pixels for adding bleed edges
 
 # Ensure the output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -143,6 +143,7 @@ def main():
     """
     Main function to process images by resizing them and adding bleed edges.
     """
+    print("Processing Images...")
     img_paths = getImgs()  # Get list of input images
     if not img_paths:
         print("No images")  # Exit if no images are found

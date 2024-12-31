@@ -8,11 +8,6 @@ os.makedirs('cards', exist_ok=True)
 venv_dir = '.venv'
 install = ' install -r requirements.txt'
 
-if not os.path.exists(venv_dir):
-    print("Creating venv...")
-    subprocess.check_call([sys.executable, '-m', 'venv', venv_dir])
-    print("Created venv.")
-
 if os.path.exists(os.path.join(venv_dir, 'Lib', 'site-packages', 'PIL')):
     pass
 else:

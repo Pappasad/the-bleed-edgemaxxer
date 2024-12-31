@@ -4,7 +4,9 @@
  True,
  False,
  False,
- 'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ 'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+ 'Technology\\Documents\\Python '
+ 'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
  None,
  False,
  False,
@@ -66,10 +68,14 @@
    'Scripts\\the-bleed-edgemaxxer\\build\\application\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
-   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
-   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('application',
    'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
@@ -114,8 +120,10 @@
  [],
  False,
  False,
- 1735581848,
+ 1735669110,
  [('run.exe',
-   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+   'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
  'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll')

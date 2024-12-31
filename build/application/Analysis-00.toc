@@ -4,9 +4,17 @@
  ['C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
   'Technology\\Documents\\Python Scripts\\the-bleed-edgemaxxer'],
  [],
- [('C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
+ [('C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\numpy\\_pyinstaller',
+   0),
+  ('C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks',
    -1000),
-  ('C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
+  ('C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib',
    -1000)],
  {},
  [],
@@ -19,7 +27,9 @@
  '3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit '
  '(AMD64)]',
  [('pyi_rth_inspect',
-   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
+   'Technology\\Documents\\Python '
+   'Scripts\\the-bleed-edgemaxxer\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('application',
    'C:\\Users\\pappasad\\OneDrive - Rose-Hulman Institute of '
@@ -311,14 +321,14 @@
   ('ast',
    'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'PYMODULE'),
   ('_py_abc',
    'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
-   'PYMODULE'),
-  ('stringprep',
-   'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
   ('platform',
    'C:\\Users\\pappasad\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\platform.py',
