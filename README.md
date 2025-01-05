@@ -24,40 +24,25 @@ The `the-bleed-edgemaxxer` application is designed to help you generate bleed ed
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
+    In the top right, click the green "Code" button, then click "Download Zip".  
+    Then extract the files.
+
+    OR
 
     ```sh
     git clone https://github.com/yourusername/the-bleed-edgemaxxer.git
     cd the-bleed-edgemaxxer
     ```
 
-2. **Create and activate the virtual environment:**
-
-    - On Windows:
-        ```sh
-        python -m venv .venv
-        .venv\Scripts\activate
-        ```
-    - On macOS/Linux:
-        ```sh
-        python -m venv .venv
-        source .venv/bin/activate
-        ```
-
-3. **Install Requirements:**
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. **Prepare your images:**
-    - Place your custom MTG card images in the [cards](http://_vscodecontentref_/1) folder.
+    - Place your custom MTG card images in a folder. They don't need to be sized properly
 
 2. **Run the application:**
-
-    application.exe
+    - application.exe
+    - When prompted, select the folder containing your card images
 
 3. **Output:**
     - The processed images with bleed edges will be saved in the [output](http://_vscodecontentref_/2) directory.

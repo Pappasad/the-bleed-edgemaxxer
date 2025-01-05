@@ -3,5 +3,5 @@
 *.jpeg
 output/
 .venv/
-cards/*
-!cards/
+cards/
+__pycache__/
