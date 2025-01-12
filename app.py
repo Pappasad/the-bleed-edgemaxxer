@@ -131,9 +131,8 @@ def getPerimeter(img_path) -> np.array:
     Extracts the perimeter pixels of an image as a flattened array.
     """
     with Image.open(img_path) as img:
+        img = img.convert('RGB')
         pixels = np.array(img)
-        if pixels.shape[2] == 4:  # Remove alpha channel if present
-            pixels = pixels[:, :, :3]
 
         # Extract top, left, and right edges of the image
         top = pixels[0, :]
