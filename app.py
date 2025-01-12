@@ -85,7 +85,7 @@ def addBleedEdge(img_path, output_dir=OUTPUT_DIR) -> str:
                 bleed_img = Image.new("RGB", new_dim, 'black')
                 x, y = BLEED_LENGTH, BLEED_LENGTH
                 bleed_img.paste(img, (x, y))
-                bleed_img.save(output_path, quality=95)
+                bleed_img.save(output_path, quality=95, dpi=(300,300))
 
             elif technique == Edge.REPLICATE:
                 # Add replicated edges as the border
@@ -114,7 +114,7 @@ def addBleedEdge(img_path, output_dir=OUTPUT_DIR) -> str:
                 bleed_img.paste(new_left_corner, (0, 0))
                 bleed_img.paste(new_right_corner, (img.width + BLEED_LENGTH, 0))
 
-                bleed_img.save(output_path, quality=95)
+                bleed_img.save(output_path, quality=95, dpi=(300,300))
 
             else:
                 raise InvalidTechniqueException  # Raise exception for invalid technique
