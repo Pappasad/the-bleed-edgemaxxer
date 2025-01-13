@@ -71,7 +71,15 @@ def addBleedEdge(img_path, output_dir=OUTPUT_DIR) -> str:
     percent = 0.80  # Threshold for determining the technique
     dark_perim = np.linalg.norm(perimeter, axis=1) <= np.linalg.norm(np.array([255, 255, 255]) * tol)
     # Choose the technique based on the percentage of dark pixels
-    technique = [Edge.REPLICATE, Edge.SIMPLE][int(np.mean(dark_perim) >= percent)]
+    if np.mean(dark_perim) >= percent:
+        technique = Edge.SIMPLE
+        unique_colors, counts = np.unique(perimeter, axis=0, return_counts=True)
+        color = tuple(unique_colors[np.argmax(counts)])
+    else:
+        technique = Edge.REPLICATE
+        color = (0, 0, 0)
+
+
     
     with Image.open(img_path) as img:
         try:
@@ -82,14 +90,14 @@ def addBleedEdge(img_path, output_dir=OUTPUT_DIR) -> str:
 
             if technique == Edge.SIMPLE:
                 # Add a simple black border
-                bleed_img = Image.new("RGB", new_dim, 'black')
+                bleed_img = Image.new("RGB", new_dim, color)
                 x, y = BLEED_LENGTH, BLEED_LENGTH
                 bleed_img.paste(img, (x, y))
                 bleed_img.save(output_path, quality=95, dpi=(300,300))
 
             elif technique == Edge.REPLICATE:
                 # Add replicated edges as the border
-                bleed_img = Image.new("RGB", new_dim, 'black')
+                bleed_img = Image.new("RGB", new_dim, color)
                 x, y = BLEED_LENGTH, BLEED_LENGTH
                 bleed_img.paste(img, (x, y))
 
